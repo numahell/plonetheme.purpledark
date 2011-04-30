@@ -25,6 +25,9 @@
  <object name="plonetheme_purpledark_styles"
     meta_type="Filesystem Directory View"
     directory="plonetheme.purpledark:skins/plonetheme_purpledark_styles"/>
+ <object name="plonetheme_purpledark_masonry"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.purpledark:skins/masonry"/>
 
  <!-- A skin-path in this file corresponds to a Skin Selection in the
      'Properties' tab of the portal_skins tool, in the ZMI.
@@ -39,6 +42,8 @@
        "all".
        -->
  <skin-path name="Purple Dark Theme" based-on="Sunburst Theme">
+  <layer name="plonetheme_purpledark_masonry"
+     insert-after="custom"/>
   <layer name="plonetheme_purpledark_custom_images"
      insert-after="custom"/>
   <layer name="plonetheme_purpledark_custom_templates"

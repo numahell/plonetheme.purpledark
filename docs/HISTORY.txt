@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.1dev (unreleased)
+-------------------
+
+- Added custom for collective.masonry
+
 1.0dev (unreleased)
 -------------------
 
