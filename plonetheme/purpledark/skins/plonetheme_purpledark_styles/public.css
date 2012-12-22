@@ -35,7 +35,7 @@ body {
     width: 960px; margin: 0 auto;
 }
 
-#visual-portal-wrapper { background: #f8f2ea; }
+#portal-columns, #portal-top { background: #f8f2ea; }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", Arial, FreeSans, sans-serif;
